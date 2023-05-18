@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./css/style.css" />
-		<title>Document</title>
+		<title>Product Modal</title>
 	</head>
 	<body>
 		<!-- Global Container -->
@@ -51,18 +51,22 @@
 					<!-- Stock Aviability -->
 					<div class="group flex items-center justify-center md:justify-start space-x-2">
 						<div class="p-2 w-2 h-2 bg-green-600 rounded-full group-hover:animate-ping"></div>
-						<p>50+ pcs. in stock.</p>
+						<p class="text-sm">50+ pcs. in stock.</p>
 					</div>
 
 					<!-- Cart Buttons -->
 					<div class="flex items-center flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-2">
-						<button class="rounded-md px-6 py-2 border block w-full border-gray-400 hover:bg-blue-400 trnasition duration-150">
+						<button
+							class="rounded-md px-4 py-2 border-2 block w-full shadow-sm border-gray-400 hover:bg-blue-400 trnasition hover:-translate-y-0.5 duration-150"
+						>
 							<img src="./assets/weight.png" alt="" class="inline h-8" />
-							Add to cart
+							<span>Add to cart</span>
 						</button>
-						<button class="rounded-md px-4 py-2 border block w-full border-gray-400 hover:bg-blue-400 trnasition duration-150">
+						<button
+							class="rounded-md px-4 py-2 border-2 block w-full shadow-sm border-gray-400 hover:bg-blue-400 trnasition hover:-translate-y-0.5 duration-150"
+						>
 							<img src="./assets/heart.png" alt="" class="inline h-8" />
-							Add to wishlist
+							<span>Add to wishlist</span>
 						</button>
 					</div>
 				</div>
